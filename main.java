@@ -47,5 +47,4 @@ public class main{
     public void testSub(){
         assertEquals(8, sub(15,7));
     }
-
 }
