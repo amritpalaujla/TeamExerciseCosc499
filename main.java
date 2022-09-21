@@ -10,7 +10,10 @@ import org.junit.Test;
 public class main{
 
     public static void main(String[] args){
-
+        
+        //calling and printing add method results
+        int addAns = add(5,3);
+        System.out.println(addAns);
         System.out.println(multiply(5,3));
     }
 
@@ -19,12 +22,7 @@ public class main{
     }
 
  
-
-
-        // calling and printing add method results
-        int addAns = add(5,3);
-        System.out.println(addAns);
-    }
+    
 
     // add method
     public static int add(int a, int b){
