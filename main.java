@@ -17,6 +17,7 @@ public class main{
         System.out.println(multiply(5,3));
         //calling and printing sub method results
         System.out.println(sub(5,3));
+        System.out.println(divide(36,6));
         
 
     }
@@ -33,6 +34,10 @@ public class main{
     public static int add(int a, int b){
         return a+b;
     }
+    // division method. Takes two integers as input and returns the quotient of a/b.
+    public static int divide(int a, int b){
+        return a/b;
+    }
 
     //Testing
     @Test
@@ -46,5 +51,9 @@ public class main{
     @Test
     public void testSub(){
         assertEquals(8, sub(15,7));
+    }
+    @Test
+    public void testDivision(){
+        assertEquals(3, divide(15,5));
     }
 }
